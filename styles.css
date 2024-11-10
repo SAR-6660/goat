@@ -1,0 +1,122 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: black;
+}
+
+.btns
+{
+    margin: 5px;
+	border: 3px solid DeepSkyBlue;	   
+	border-radius: 6px;
+    background-color: black;
+    color: DeepSkyBlue;
+    cursor: pointer;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.inp1
+{
+ 	width: 2ch;
+ 	border: 3px solid DeepSkyBlue;
+ 	border-radius: 3px;
+ 	text-align: center;
+ 	background-color: black;
+ 	color: DeepSkyBlue;
+    cursor: text;
+    outline: none;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.inp
+{
+    display: block;
+    position: relative;
+    left: 200px;
+    margin-top: -25px;
+ 	width: 3ch;
+ 	border: 3px solid DeepSkyBlue;
+ 	border-radius: 3px;
+ 	text-align: center;
+ 	background-color: black;
+ 	color: DeepSkyBlue;
+    cursor: text;
+    outline: none;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.inp_name
+{
+    margin: 5px;
+ 	width: 20ch;
+ 	border: 3px solid DeepSkyBlue;
+ 	border-radius: 3px;
+ 	text-align:center;
+ 	background-color: black;
+ 	color: DeepSkyBlue;
+    cursor: text;
+    outline:none;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.spn
+{
+    position: relative;
+    right: 50px;
+ 	color: DeepSkyBlue;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div
+{
+    border: 5px solid DeepSkyBlue;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.dv
+{
+    border-top: 0px solid DeepSkyBlue;
+    border-radius: 100px;
+    font-size: 15px;
+}
+
+.menu_b
+{
+    border-top: 0px solid DeepSkyBlue;
+    border-radius: 100px; 
+    font-size: 15px;
+}
+
+.vvod_b
+{
+    border-top: 0px solid DeepSkyBlue;
+    border-radius: 100px; 
+}
