@@ -23,10 +23,10 @@ body {
 .btns
 {
     margin: 5px;
-	border: 3px solid DeepSkyBlue;	   
+	border: 3px solid red;	   
 	border-radius: 6px;
     background-color: black;
-    color: DeepSkyBlue;
+    color: red;
     cursor: pointer;
     font-family: "Comic Sans MS";
     font-weight: bold;
@@ -36,11 +36,11 @@ body {
 .inp1
 {
  	width: 2ch;
- 	border: 3px solid DeepSkyBlue;
+ 	border: 3px solid red;
  	border-radius: 3px;
  	text-align: center;
  	background-color: black;
- 	color: DeepSkyBlue;
+ 	color: red;
     cursor: text;
     outline: none;
     font-family: "Comic Sans MS";
@@ -52,14 +52,14 @@ body {
 {
     display: block;
     position: relative;
-    left: 200px;
+    left: 300px;
     margin-top: -25px;
  	width: 3ch;
- 	border: 3px solid DeepSkyBlue;
+ 	border: 3px solid red;
  	border-radius: 3px;
  	text-align: center;
  	background-color: black;
- 	color: DeepSkyBlue;
+ 	color: red;
     cursor: text;
     outline: none;
     font-family: "Comic Sans MS";
@@ -71,11 +71,11 @@ body {
 {
     margin: 5px;
  	width: 20ch;
- 	border: 3px solid DeepSkyBlue;
+ 	border: 3px solid red;
  	border-radius: 3px;
  	text-align:center;
  	background-color: black;
- 	color: DeepSkyBlue;
+ 	color: red;
     cursor: text;
     outline:none;
     font-family: "Comic Sans MS";
@@ -87,7 +87,7 @@ body {
 {
     position: relative;
     right: 50px;
- 	color: DeepSkyBlue;
+ 	color: red;
     font-family: "Comic Sans MS";
     font-weight: bold;
     font-size: 15px;
@@ -95,7 +95,7 @@ body {
 
 div
 {
-    border: 5px solid DeepSkyBlue;
+    border: 5px solid red;
     border-radius: 30px;
     padding: 10px;
     font-size: 15px;
@@ -103,20 +103,20 @@ div
 
 .dv
 {
-    border-top: 0px solid DeepSkyBlue;
+    border-top: 0px;
     border-radius: 100px;
     font-size: 15px;
 }
 
 .menu_b
 {
-    border-top: 0px solid DeepSkyBlue;
+    border-top: 0px;
     border-radius: 100px; 
     font-size: 15px;
 }
 
 .vvod_b
 {
-    border-top: 0px solid DeepSkyBlue;
+    border-top: 0px;
     border-radius: 100px; 
 }
