@@ -12,187 +12,72 @@
 		<img src="goat_big.png">
 		<div id="menu">
 			<button class="btns" onclick="minus()">-</button>
-			<input class="inp1" id="out" type="number" value="2"/>
+			<input class="inp1" id="players_count" type="number" value="2"/>
 			<button class="btns" onclick="plus()">+</button></br>
+			<button class="btns" onclick="button1()">Продолжить</button>
 		</div>
 
-		<div class="menu_b" id="menu_but">
-			<button class="btns" onclick="vvod1()">Продолжить</button>
-		</div>
 		
-		<div id="p2" style="display:none">
-			<input class="inp_name" id="plr2_1" type="text" onfocus="this.value=''" value="Первый игрок"/></br>
-			<input class="inp_name" id="plr2_2" type="text" onfocus="this.value=''" value="Второй игрок"/></br>
-			
-		</div>
-		
-		<div id="p3" style="display:none">
-			<input class="inp_name" id="plr3_1" type="text" onfocus="this.value=''" value="Первый игрок"/></br>
-			<input class="inp_name" id="plr3_2" type="text" onfocus="this.value=''" value="Второй игрок"/></br>
-			<input class="inp_name" id="plr3_3" type="text" onfocus="this.value=''" value="Третий игрок"/></br>
-		</div>
-		
-		<div id="p4" style="display:none">
-			<input class="inp_name" id="plr4_1" type="text" onfocus="this.value=''" value="Первый игрок"/></br>
-			<input class="inp_name" id="plr4_2" type="text" onfocus="this.value=''" value="Второй игрок"/></br>
-			<input class="inp_name" id="plr4_3" type="text" onfocus="this.value=''" value="Третий игрок"/></br>
-			<input class="inp_name" id="plr4_4" type="text" onfocus="this.value=''" value="Четвертый игрок"/></br>
-		</div>
-		
-		<div id="p5" style="display:none">
-			<input class="inp_name" id="plr5_1" type="text" onfocus="this.value=''" value="Первый игрок"/></br>
-			<input class="inp_name" id="plr5_2" type="text" onfocus="this.value=''" value="Второй игрок"/></br>
-			<input class="inp_name" id="plr5_3" type="text" onfocus="this.value=''" value="Третий игрок"/></br>
-			<input class="inp_name" id="plr5_4" type="text" onfocus="this.value=''" value="Четвертый игрок"/></br>
-			<input class="inp_name" id="plr5_5" type="text" onfocus="this.value=''" value="Пятый игрок"/></br>
-		</div>
-		
-		<div id="p6" style="display:none">
-			<input class="inp_name" id="plr6_1" type="text" onfocus="this.value=''" value="Первый игрок"/></br>
-			<input class="inp_name" id="plr6_2" type="text" onfocus="this.value=''" value="Второй игрок"/></br>
-			<input class="inp_name" id="plr6_3" type="text" onfocus="this.value=''" value="Третий игрок"/></br>
-			<input class="inp_name" id="plr6_4" type="text" onfocus="this.value=''" value="Четвертый игрок"/></br>
-			<input class="inp_name" id="plr6_5" type="text" onfocus="this.value=''" value="Пятый игрок"/></br>
-			<input class="inp_name" id="plr6_6" type="text" onfocus="this.value=''" value="Шестой игрок"/></br>
-		</div>
-		<div class="vvod_b" id="vvod_but" style="display:none">
-			<button class="btns" onclick="vvod2()">Продолжить</button>
+		<div id="players" style="display:none">
+			<div id="player1" style="display:none"><input class="inp_name" id="plr1" type="text" onfocus="this.value=''" value="Первый игрок"/></div>
+			<div id="player2" style="display:none"><input class="inp_name" id="plr2" type="text" onfocus="this.value=''" value="Второй игрок"/></div>
+			<div id="player3" style="display:none"><input class="inp_name" id="plr3" type="text" onfocus="this.value=''" value="Третий игрок"/></div>
+			<div id="player4" style="display:none"><input class="inp_name" id="plr4" type="text" onfocus="this.value=''" value="Четвертый игрок"/></div>
+			<button class="btns" onclick="button2()">Продолжить</button>
 		</div>
 
-		<div id="g2" style="display:none">
-			<span class="spn" id="name2_1"></span>
-			<span class="spn" id="skobka1"></span>
-			<span class="spn" id="points2_1">0</span>
-			<span class="spn" id="skobka2"></span>
-			<input class="inp" id="res2_1" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name2_2"></span>
-			<span class="spn" id="skobka3"></span>
-			<span class="spn" id="points2_2">0</span>
-			<span class="spn" id="skobka4"></span>
-			<input class="inp" id="res2_2" type="number" onfocus="this.value=''" value="0"/>
-		</div>
-
-		<div id="g3" style="display:none">
-			<span class="spn" id="name3_1"></span>
-			<span class="spn" id="skobka5"></span>
-			<span class="spn" id="points3_1">0</span>
-			<span class="spn" id="skobka6"></span>
-			<input class="inp" id="res3_1" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name3_2"></span>
-			<span class="spn" id="skobka7"></span>
-			<span class="spn" id="points3_2">0</span>
-			<span class="spn" id="skobka8"></span>
-			<input class="inp" id="res3_2" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name3_3"></span>
-			<span class="spn" id="skobka9"></span>
-			<span class="spn" id="points3_3">0</span>
-			<span class="spn" id="skobka10"></span>
-			<input class="inp" id="res3_3" type="number" onfocus="this.value=''" value="0"/>
-		</div>
-
-		<div id="g4" style="display:none">
-			<span class="spn" id="name4_1"></span>
-			<span class="spn" id="skobka11"></span>
-			<span class="spn" id="points4_1">0</span>
-			<span class="spn" id="skobka12"></span>
-			<input class="inp" id="res4_1" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name4_2"></span>
-			<span class="spn" id="skobka13"></span>
-			<span class="spn" id="points4_2">0</span>
-			<span class="spn" id="skobka14"></span>
-			<input class="inp" id="res4_2" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name4_3"></span>
-			<span class="spn" id="skobka15"></span>
-			<span class="spn" id="points4_3">0</span>
-			<span class="spn" id="skobka16"></span>
-			<input class="inp" id="res4_3" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name4_4"></span>
-			<span class="spn" id="skobka17"></span>
-			<span class="spn" id="points4_4">0</span>
-			<span class="spn" id="skobka18"></span>
-			<input class="inp" id="res4_4" type="number" onfocus="this.value=''" value="0"/>
-		</div>
-
-		<div id="g5" style="display:none">
-			<span class="spn" id="name5_1"></span>
-			<span class="spn" id="skobka19"></span>
-			<span class="spn" id="points5_1">0</span>
-			<span class="spn" id="skobka20"></span>
-			<input class="inp" id="res5_1" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name5_2"></span>
-			<span class="spn" id="skobka21"></span>
-			<span class="spn" id="points5_2">0</span>
-			<span class="spn" id="skobka22"></span>
-			<input class="inp" id="res5_2" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name5_3"></span>
-			<span class="spn" id="skobka23"></span>
-			<span class="spn" id="points5_3">0</span>
-			<span class="spn" id="skobka24"></span>
-			<input class="inp" id="res5_3" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name5_4"></span>
-			<span class="spn" id="skobka25"></span>
-			<span class="spn" id="points5_4">0</span>
-			<span class="spn" id="skobka26"></span>
-			<input class="inp" id="res5_4" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name5_5"></span>
-			<span class="spn" id="skobka27"></span>
-			<span class="spn" id="points5_5">0</span>
-			<span class="spn" id="skobka28"></span>
-			<input class="inp" id="res5_5" type="number" onfocus="this.value=''" value="0"/>
-		</div>
-
-		<div id="g6" style="display:none">
-			<span class="spn" id="name6_1"></span>
-			<span class="spn" id="skobka29"></span>
-			<span class="spn" id="points6_1">0</span>
-			<span class="spn" id="skobka30"></span>
-			<input class="inp" id="res6_1" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name6_2"></span>
-			<span class="spn" id="skobka31"></span>
-			<span class="spn" id="points6_2">0</span>
-			<span class="spn" id="skobka32"></span>
-			<input class="inp" id="res6_2" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name6_3"></span>
-			<span class="spn" id="skobka33"></span>
-			<span class="spn" id="points6_3">0</span>
-			<span class="spn" id="skobka34"></span>
-			<input class="inp" id="res6_3" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name6_4"></span>
-			<span class="spn" id="skobka35"></span>
-			<span class="spn" id="points6_4">0</span>
-			<span class="spn" id="skobka36"></span>
-			<input class="inp" id="res6_4" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name6_5"></span>
-			<span class="spn" id="skobka37"></span>
-			<span class="spn" id="points6_5">0</span>
-			<span class="spn" id="skobka38"></span>
-			<input class="inp" id="res6_5" type="number" onfocus="this.value=''" value="0"/>
-			</br>
-			<span class="spn" id="name6_6"></span>
-			<span class="spn" id="skobka39"></span>
-			<span class="spn" id="points6_6">0</span>
-			<span class="spn" id="skobka40"></span>
-			<input class="inp" id="res6_6" type="number" onfocus="this.value=''" value="0"/>
-		</div>
-
-		<div class="dv" id="buttons" style="display:none">
+		<div id="game" style="display:none">
+			<div id="game_player1" style="display:none">
+				<span class="spn" id="name1"></span>
+				<span class="spn" id="skobka1_1"></span>
+				<span class="spn" id="points1">0</span>
+				<span class="spn" id="skobka1_2"></span>
+				<input class="inp" id="res1" type="number" onfocus="this.value=''" value="0"/>
+			</div>
+			<div id="game_player2" style="display:none">
+				<span class="spn" id="name2"></span>
+				<span class="spn" id="skobka2_1"></span>
+				<span class="spn" id="points2">0</span>
+				<span class="spn" id="skobka2_2"></span>
+				<input class="inp" id="res2" type="number" onfocus="this.value=''" value="0"/>
+			</div>
+			<div id="game_player3" style="display:none">
+				<span class="spn" id="name3"></span>
+				<span class="spn" id="skobka3_1"></span>
+				<span class="spn" id="points3">0</span>
+				<span class="spn" id="skobka3_2"></span>
+				<input class="inp" id="res3" type="number" onfocus="this.value=''" value="0"/>
+			</div>
+			<div id="game_player4" style="display:none">
+				<span class="spn" id="name4"></span>
+				<span class="spn" id="skobka4_1"></span>
+				<span class="spn" id="points4">0</span>
+				<span class="spn" id="skobka4_2"></span>
+				<input class="inp" id="res4" type="number" onfocus="this.value=''" value="0"/>
+			</div>
 			<button class="btns" onclick="game_res()">Посчитать</button>
 			<button class="btns" onclick="reset()">Сброс</button>
 			<button class="btns" onclick="start()">Перезапуск</button>
 		</div>
+
+	<div id="game_ov" style="display:none">
+		<div id="ov1" style="display:none">
+			<span class="spn2" id="name_game_over_1"></span>
+			<span class="spn2" id="points_game_over_1">0</span>
+		</div>
+		<div id="ov2" style="display:none">
+			<span class="spn2" id="name_game_over_2"></span>
+			<span class="spn2" id="points_game_over_2">0</span>
+		</div>
+		<div id="ov3" style="display:none">
+			<span class="spn2" id="name_game_over_3"></span>
+			<span class="spn2" id="points_game_over_3">0</span>
+		</div>
+		<div id="ov4" style="display:none">
+			<span class="spn2" id="name_game_over_4"></span>
+			<span class="spn2" id="points_game_over_4">0</span>
+		</div>
+		<button class="btns" onclick="start()">Перезапуск</button>
+	</div>
 	</body>
 </html>
